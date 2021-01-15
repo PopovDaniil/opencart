@@ -1,0 +1,15 @@
+2021-01-13 6:43:51 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in E:\OpenServer\domains\opencart\system\library\db\mysqli.php on line 7
+2021-01-13 6:43:51 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in E:\OpenServer\domains\opencart\system\library\db\mysqli.php on line 10
+2021-01-13 6:43:51 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in E:\OpenServer\domains\opencart\system\library\db\mysqli.php on line 10
+2021-01-13 6:43:51 - PHP Notice:  Undefined variable: mysql in E:\OpenServer\domains\opencart\install\controller\install\step_3.php on line 280
+2021-01-13 6:43:51 - PHP Notice:  Trying to get property of non-object in E:\OpenServer\domains\opencart\install\controller\install\step_3.php on line 280
+2021-01-13 6:44:36 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in E:\OpenServer\domains\opencart\system\library\db\mysqli.php on line 7
+2021-01-13 6:44:36 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in E:\OpenServer\domains\opencart\system\library\db\mysqli.php on line 10
+2021-01-13 6:44:36 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in E:\OpenServer\domains\opencart\system\library\db\mysqli.php on line 10
+2021-01-13 6:44:36 - PHP Notice:  Undefined variable: mysql in E:\OpenServer\domains\opencart\install\controller\install\step_3.php on line 280
+2021-01-13 6:44:36 - PHP Notice:  Trying to get property of non-object in E:\OpenServer\domains\opencart\install\controller\install\step_3.php on line 280
+2021-01-13 6:45:20 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'store' in E:\OpenServer\domains\opencart\system\library\db\mysqli.php on line 7
+2021-01-13 6:45:20 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in E:\OpenServer\domains\opencart\system\library\db\mysqli.php on line 10
+2021-01-13 6:45:20 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in E:\OpenServer\domains\opencart\system\library\db\mysqli.php on line 10
+2021-01-13 6:45:20 - PHP Notice:  Undefined variable: mysql in E:\OpenServer\domains\opencart\install\controller\install\step_3.php on line 280
+2021-01-13 6:45:20 - PHP Notice:  Trying to get property of non-object in E:\OpenServer\domains\opencart\install\controller\install\step_3.php on line 280
