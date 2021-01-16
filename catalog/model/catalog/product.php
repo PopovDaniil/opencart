@@ -96,13 +96,13 @@ class ModelCatalogProduct extends Model {
 				$sql .= " AND pf.filter_id IN (" . implode(',', $implode) . ")";
 			}
 		}
+		echo $data['filter_name'];
 
 		if (!empty($data['filter_name']) || !empty($data['filter_tag'])) {
 			$sql .= " AND (";
 
 			if (!empty($data['filter_name'])) {
 				$implode = array();
-
 				$words = explode(' ', trim(preg_replace('/\s+/', ' ', $data['filter_name'])));
 
 				foreach ($words as $word) {
@@ -535,5 +535,11 @@ class ModelCatalogProduct extends Model {
 		} else {
 			return 0;
 		}
+	}
+	
+	public function getProductsByID($product_name) {
+		$product = $this->db->query("SELECT * FROM ". DB_PREFIX . " oc_product_description, ". DB_PREFIX . "oc_product WHERE name = $product_name");
+
+		return $product->row;
 	}
 }

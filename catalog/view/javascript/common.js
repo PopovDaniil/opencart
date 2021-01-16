@@ -143,6 +143,14 @@ $(document).ready(function() {
 	$(document).ajaxStop(function() {
 		$('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
 	});
+
+	$('form[data-url]').on('submit',function(event) {
+		event.preventDefault();
+		const href = this.dataset.url;
+		const filter = $(this).find('input').val();
+		location = href + filter;
+		
+	})
 });
 
 // Cart add remove functions

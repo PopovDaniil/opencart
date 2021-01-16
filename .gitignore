@@ -1,2 +1,4 @@
+.vscode/**
+
 system
-system/storage/cache/*
+system/storage/cache/**
